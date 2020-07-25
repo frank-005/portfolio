@@ -1,40 +1,40 @@
+:root {
+    --bgcolor: #2b343d3b;
+}
 body {
     font-family: 'Roboto', sans-serif;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 .part-1 {
     background: url(imgs/img-5.jpg);
-    position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 700px;
-    left: 0px;
+    height: 100vh;
     top: 0px;
 }
 
 .nav-bar {
-    position: absolute;
     width: 100%;
-    height: 74px;
-    left: 0px;
-    top: 0px;
-    background: rgba(43, 52, 61, 0.23);
+    height: 10vh;
+    font-size: 18px;
+    background: var(--bgcolor);
     background-blend-mode: lighten;
     color: white;
 }
 
 .nav-link {
-    font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
     flex: none;
     order: 1;
     align-self: center;
-    margin: 145px 0px;
 }
 
 .nav-1 {
@@ -44,37 +44,21 @@ body {
 .nav-links {
     display: flex;
     flex-direction: row;
-    padding: 0px;
-    position: absolute;
-    width: 50%;
+    padding: 2vh;
+    margin: 0;
     height: 25px;
-    left: 679px;
-    top: 24px;
-    justify-content: space-between;
+    justify-content: space-around;
     text-decoration: none;
     list-style: none;
-    font-size: 24px;
-}
-
-.line-1 {
-    position: absolute;
-    width: 60px;
-    height: 0.1px;
-    left: 679px;
-    top: 75px;
-    border: 2px solid rgba(95, 65, 29, 0.9);
 }
 
 .text-1 {
-    position: absolute;
-    width: 323px;
-    height: 46px;
-    left: 26px;
+   
+    left: 20vh;
     top: 216px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 48px;
+    font-size: 42px;
     line-height: 56px;
     color: #B38B52;
 }
