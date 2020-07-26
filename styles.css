@@ -73,4 +73,80 @@
     font-style: normal;
     font-weight: 200;
     font-family: var(--font);
+} 
+
+.part-2 {
+    background: var(--bgColor);
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text-5 {
+    color: var(--txtColor);
+    font-size: 32px;
+    font-weight: 300;
+    margin-left: 18vh;
+    padding-top: 4vh;
+}
+
+.text-6 {
+    color: #FFF;
+    margin-left: 18vh;
+    margin-top: 3vh;
+    font-size: 16px;
+    font-weight: 200;
+
+}
+
+.pass-img {
+    float: right;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 8vh 30vh;
+   
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.btn-1 {
+    background: var(--txtColor);
+    color: #FFF;
+    border: none;
+    border-radius: 31px;
+    width: 105px;
+    height: 40px;
+    margin: 3vh 3vh 0 18vh;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.btn-2 {
+    background: var(--pColor);
+    
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 31px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 3vh;
+
+}
+
+.inner {
+    background: var(--bgColor);
+    border: none;
+    color: #FFF;
+    border-radius: 31px;
+    height: 34px;
+    width: 104px;
+    margin: 3px;
+
 }
