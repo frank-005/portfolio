@@ -77,7 +77,6 @@
 
 .part-2 {
     background: var(--bgColor);
-    height: 70vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -149,4 +148,41 @@
     width: 104px;
     margin: 3px;
 
+}
+
+.part-3 {
+    background: var(--bgColor);
+}
+
+.text-7 {
+    color: var(--txtColor);
+    font-size: 32px;
+    font-weight: 300;
+    margin-left: 18vh;
+}
+
+.imgs-p {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+
+}
+
+.section-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3vh 3vh 0 18vh;
+    color: #FFF;
+   
+}
+
+.text-8 {
+    font-size: 32px;
+    font-weight: 100;
+    margin: 3vh 0 3vh 0;
+}
+
+.section-1 p {
+    width: 60%;
+    text-align: center;
 }
