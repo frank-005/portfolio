@@ -9,6 +9,11 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    color: #FFF;
+    
+}
+
 .part-1 {
     background: url(imgs/img-5.jpg);
     background-repeat: no-repeat;
