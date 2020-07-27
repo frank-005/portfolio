@@ -17,6 +17,7 @@ a {
   color: #FFF;
   text-decoration: none;
 }
+
 .part-1 {
   background-image: url(imgs/img-5.jpg);
   background-repeat: no-repeat;
@@ -44,12 +45,6 @@ a {
 .nav-1 {
   color: #b38b52;
   font-weight: bolder;
-}
-.line-1 {
-  height: 1px;
-  width: 40px;
-  background: var(--lineColor);
-  margin: 2px 0 0 616px;
 }
 
 .text-1 {
@@ -190,6 +185,7 @@ a {
   font-weight: 300;
   margin-left: 18vh;
 }
+
 .imgs-l {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -216,6 +212,7 @@ a {
 .contact {
   color: var(--txtColor);
 }
+
 .copywright {
   text-align: end;
 }
