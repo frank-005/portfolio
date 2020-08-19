@@ -14,12 +14,12 @@
 }
 
 a {
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
 }
 
 .part-1 {
-  background-image: url(imgs/img-5.jpg);
+  background-image: url(imgs/cupofcoffee.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -197,6 +197,54 @@ a {
   width: 400px;
   margin: 3vh;
   border-radius: 10px;
+}
+
+.part-5 {
+  background: var(--bgColor);
+  height: 50vh;
+  padding: 5vh 0 5vh 0;
+}
+.text-10 {
+  color: var(--txtColor);
+  font-size: 32px;
+  font-weight: 300;
+  margin-left: 18vh;
+}
+.form-1 {
+  color: #FFF;
+  margin: 5vh 0 5vh 18vh;
+  background: rgb(27, 27, 71);
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.form-1 p, input{
+  margin: 2vh;
+  font-weight: 400;
+  text-align: center;
+}
+
+.form-1 button {
+  border: none;
+  
+}
+
+.form-1 input {
+  background: var(--pColor);
+  height: 25px;
+  border: none;
+  border-radius: 2px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+#input-eml, #input-txt {
+  text-align: center;
+  
+
 }
 
 .footer {
