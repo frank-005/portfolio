@@ -4,6 +4,7 @@
   --pColor: #7fc3d1;
   --font: "Source Code Pro", monospace;
   --lineColor: #593e1f;
+  --textColor: #ffffffcc;
 }
 
 * {
@@ -88,7 +89,7 @@ a {
 }
 
 .text-6 {
-  color: #fff;
+  color: var(--textColor);
   margin-left: 18vh;
   margin-top: 3vh;
   font-size: 16px;
@@ -108,6 +109,14 @@ a {
   flex-direction: row;
 }
 
+.btn-1:hover {
+  transition-duration: 0.3s;
+  width:125px;
+  height:45px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
 .btn-1 {
   background: var(--txtColor);
   color: #fff;
@@ -116,7 +125,7 @@ a {
   width: 105px;
   height: 40px;
   margin: 3vh 3vh 0 18vh;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -131,6 +140,13 @@ a {
   margin-top: 3vh;
 }
 
+.btn-2:hover {
+  transition-duration: 0.3s;
+  height: 46px;
+  width: 126px;
+  font-size: 20px;
+}
+
 .inner {
   background: var(--bgColor);
   border: none;
@@ -139,6 +155,14 @@ a {
   height: 34px;
   width: 104px;
   margin: 3px;
+}
+
+.inner:hover {
+  transition-duration: 0.3s;
+  height: 40px;
+  width: 120px;
+  background: var(--pColor);
+  color: var(--bgColor);
 }
 
 .part-3 {
@@ -163,13 +187,14 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 3vh 3vh 0 18vh;
-  color: #fff;
+  color: #ffffffcc;
 }
 
 .text-8 {
   font-size: 32px;
   font-weight: 100;
   margin: 3vh 0 3vh 0;
+  color: #ffffff99;
 }
 
 .section-1 p {
@@ -201,21 +226,29 @@ a {
   border-radius: 10px;
 }
 
+.imgs-l img:hover {
+  transition-duration: 0.5s;
+  height: 320px;
+  width: 420px;
+}
+
 .part-5 {
   background: var(--bgColor);
   height: 70vh;
   padding: 5vh 0 5vh 0;
 }
+
 .text-10 {
   color: var(--txtColor);
   font-size: 32px;
   font-weight: 300;
   margin-left: 18vh;
 }
+
 .form-1 {
-  color: #FFF;
+  color: var(--textColor);
   margin: 5vh 0 5vh 18vh;
-  background: rgb(27, 27, 71);
+  background: rgb(8, 12, 22);
   width: 200px;
   height: 250px;
   border-radius: 10px;
@@ -228,8 +261,7 @@ a {
 }
 
 .form-1 button {
-  border: none;
-  
+  border: none; 
 }
 
 .form-1 input {
@@ -245,7 +277,6 @@ a {
 
 #input-eml, #input-txt {
   text-align: center;
-  
 
 }
 
@@ -265,6 +296,7 @@ a {
 
 .copywright {
   text-align: end;
+  color: var(--textColor);
 }
 
 .social-icons {
@@ -276,4 +308,19 @@ a {
   height: 40px;
   width: 50px;
   padding-left: 10px;
+}
+
+.btn-3 {
+  background: var(--pColor);
+  color: black;
+  height: 35px;
+  width: 100px;
+  border: none;
+  border-radius: 31px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 50px;
+  margin-top: 30px;
+
+
 }
