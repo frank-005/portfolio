@@ -146,7 +146,7 @@ a {
   height: 100vh;
 }
 
-.text-7 {
+#text-7 {
   color: var(--txtColor);
   font-size: 32px;
   font-weight: 300;
@@ -181,7 +181,7 @@ a {
   background: var(--bgColor);
 }
 
-.text-9 {
+#text-9 {
   color: var(--txtColor);
   font-size: 32px;
   font-weight: 300;
